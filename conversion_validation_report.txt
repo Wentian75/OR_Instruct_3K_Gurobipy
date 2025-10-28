@@ -1,0 +1,327 @@
+================================================================================
+COPTPY to Gurobipy Conversion - Validation Report
+================================================================================
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total entries processed: 3000
+Issues found: 288
+Success rate: 90.40%
+
+CONVERSION STATISTICS
+--------------------------------------------------------------------------------
+gurobipy_imports: 3000 (100.0%)
+grb_constants: 3000 (100.0%)
+gp_env_calls: 3000 (100.0%)
+gp_model_calls: 3000 (100.0%)
+objval_uppercase: 2918 (97.3%)
+math_model_preserved: 3000 (100.0%)
+no_coptpy_in_code: 2766 (92.2%)
+no_copt_constants: 2946 (98.2%)
+gurobipy_text_refs: 3000 (100.0%)
+
+
+ISSUES FOUND
+--------------------------------------------------------------------------------
+Entry 22: Still contains 'coptpy' reference
+Entry 31: Still contains 'coptpy' reference
+Entry 43: Still contains 'COPT.' constant
+Entry 79: Still contains 'coptpy' reference
+Entry 96: Still contains 'coptpy' reference
+Entry 98: Still contains 'coptpy' reference
+Entry 106: Still contains 'coptpy' reference
+Entry 113: Still contains 'coptpy' reference
+Entry 129: Still contains 'coptpy' reference
+Entry 151: Still contains 'coptpy' reference
+Entry 155: Still contains 'coptpy' reference
+Entry 156: Still contains 'COPT.' constant
+Entry 160: Still contains 'coptpy' reference
+Entry 169: Still contains 'coptpy' reference
+Entry 184: Still contains 'COPT.' constant
+Entry 185: Still contains 'coptpy' reference
+Entry 201: Still contains 'COPT.' constant
+Entry 228: Still contains 'coptpy' reference
+Entry 229: Still contains 'coptpy' reference
+Entry 232: Still contains 'COPT.' constant
+Entry 260: Still contains 'COPT.' constant
+Entry 267: Still contains 'coptpy' reference
+Entry 277: Still contains 'coptpy' reference
+Entry 287: Still contains 'coptpy' reference
+Entry 322: Still contains 'coptpy' reference
+Entry 329: Still contains 'coptpy' reference
+Entry 336: Still contains 'coptpy' reference
+Entry 353: Still contains 'coptpy' reference
+Entry 365: Still contains 'coptpy' reference
+Entry 375: Still contains 'coptpy' reference
+Entry 376: Still contains 'COPT.' constant
+Entry 384: Still contains 'COPT.' constant
+Entry 386: Still contains 'coptpy' reference
+Entry 389: Still contains 'coptpy' reference
+Entry 400: Still contains 'coptpy' reference
+Entry 427: Still contains 'coptpy' reference
+Entry 430: Still contains 'coptpy' reference
+Entry 450: Still contains 'coptpy' reference
+Entry 462: Still contains 'coptpy' reference
+Entry 472: Still contains 'COPT.' constant
+Entry 474: Still contains 'coptpy' reference
+Entry 478: Still contains 'coptpy' reference
+Entry 485: Still contains 'coptpy' reference
+Entry 487: Still contains 'coptpy' reference
+Entry 507: Still contains 'coptpy' reference
+Entry 526: Still contains 'coptpy' reference
+Entry 548: Still contains 'coptpy' reference
+Entry 564: Still contains 'COPT.' constant
+Entry 594: Still contains 'coptpy' reference
+Entry 610: Still contains 'coptpy' reference
+Entry 615: Still contains 'coptpy' reference
+Entry 618: Still contains 'coptpy' reference
+Entry 623: Still contains 'coptpy' reference
+Entry 627: Still contains 'coptpy' reference
+Entry 655: Still contains 'COPT.' constant
+Entry 658: Still contains 'COPT.' constant
+Entry 669: Still contains 'coptpy' reference
+Entry 675: Still contains 'coptpy' reference
+Entry 675: Still contains 'COPT.' constant
+Entry 682: Still contains 'coptpy' reference
+Entry 689: Still contains 'coptpy' reference
+Entry 696: Still contains 'coptpy' reference
+Entry 721: Still contains 'coptpy' reference
+Entry 750: Still contains 'coptpy' reference
+Entry 772: Still contains 'coptpy' reference
+Entry 781: Still contains 'coptpy' reference
+Entry 781: Still contains 'COPT.' constant
+Entry 782: Still contains 'coptpy' reference
+Entry 789: Still contains 'coptpy' reference
+Entry 799: Still contains 'coptpy' reference
+Entry 817: Still contains 'coptpy' reference
+Entry 818: Still contains 'coptpy' reference
+Entry 831: Still contains 'coptpy' reference
+Entry 844: Still contains 'coptpy' reference
+Entry 854: Still contains 'coptpy' reference
+Entry 857: Still contains 'coptpy' reference
+Entry 859: Still contains 'coptpy' reference
+Entry 876: Still contains 'coptpy' reference
+Entry 883: Still contains 'coptpy' reference
+Entry 902: Still contains 'coptpy' reference
+Entry 923: Still contains 'coptpy' reference
+Entry 949: Still contains 'coptpy' reference
+Entry 949: Still contains 'COPT.' constant
+Entry 958: Still contains 'coptpy' reference
+Entry 964: Still contains 'coptpy' reference
+Entry 984: Still contains 'coptpy' reference
+Entry 984: Still contains 'COPT.' constant
+Entry 987: Still contains 'coptpy' reference
+Entry 993: Still contains 'coptpy' reference
+Entry 1009: Still contains 'coptpy' reference
+Entry 1026: Still contains 'coptpy' reference
+Entry 1027: Still contains 'COPT.' constant
+Entry 1033: Still contains 'coptpy' reference
+Entry 1040: Still contains 'coptpy' reference
+Entry 1059: Still contains 'coptpy' reference
+Entry 1060: Still contains 'coptpy' reference
+Entry 1066: Still contains 'coptpy' reference
+Entry 1069: Still contains 'coptpy' reference
+Entry 1078: Still contains 'coptpy' reference
+Entry 1079: Still contains 'COPT.' constant
+Entry 1089: Still contains 'COPT.' constant
+Entry 1094: Still contains 'coptpy' reference
+Entry 1097: Still contains 'COPT.' constant
+Entry 1110: Still contains 'coptpy' reference
+Entry 1113: Still contains 'COPT.' constant
+Entry 1122: Still contains 'coptpy' reference
+Entry 1126: Still contains 'COPT.' constant
+Entry 1134: Still contains 'coptpy' reference
+Entry 1135: Still contains 'COPT.' constant
+Entry 1153: Still contains 'coptpy' reference
+Entry 1156: Still contains 'coptpy' reference
+Entry 1179: Still contains 'coptpy' reference
+Entry 1183: Still contains 'coptpy' reference
+Entry 1184: Still contains 'coptpy' reference
+Entry 1209: Still contains 'coptpy' reference
+Entry 1211: Still contains 'COPT.' constant
+Entry 1213: Still contains 'coptpy' reference
+Entry 1234: Still contains 'coptpy' reference
+Entry 1248: Still contains 'coptpy' reference
+Entry 1259: Still contains 'coptpy' reference
+Entry 1264: Still contains 'coptpy' reference
+Entry 1264: Still contains 'COPT.' constant
+Entry 1274: Still contains 'coptpy' reference
+Entry 1289: Still contains 'coptpy' reference
+Entry 1304: Still contains 'coptpy' reference
+Entry 1314: Still contains 'COPT.' constant
+Entry 1321: Still contains 'coptpy' reference
+Entry 1322: Still contains 'coptpy' reference
+Entry 1322: Still contains 'COPT.' constant
+Entry 1323: Still contains 'COPT.' constant
+Entry 1328: Still contains 'coptpy' reference
+Entry 1348: Still contains 'coptpy' reference
+Entry 1354: Still contains 'coptpy' reference
+Entry 1357: Still contains 'coptpy' reference
+Entry 1380: Still contains 'coptpy' reference
+Entry 1393: Still contains 'coptpy' reference
+Entry 1398: Still contains 'coptpy' reference
+Entry 1404: Still contains 'coptpy' reference
+Entry 1412: Still contains 'coptpy' reference
+Entry 1420: Still contains 'coptpy' reference
+Entry 1441: Still contains 'coptpy' reference
+Entry 1441: Still contains 'COPT.' constant
+Entry 1497: Still contains 'coptpy' reference
+Entry 1499: Still contains 'coptpy' reference
+Entry 1502: Still contains 'coptpy' reference
+Entry 1509: Still contains 'coptpy' reference
+Entry 1525: Still contains 'coptpy' reference
+Entry 1529: Still contains 'coptpy' reference
+Entry 1533: Still contains 'coptpy' reference
+Entry 1540: Still contains 'coptpy' reference
+Entry 1541: Still contains 'coptpy' reference
+Entry 1545: Still contains 'coptpy' reference
+Entry 1545: Still contains 'COPT.' constant
+Entry 1567: Still contains 'coptpy' reference
+Entry 1570: Still contains 'coptpy' reference
+Entry 1594: Still contains 'coptpy' reference
+Entry 1597: Still contains 'coptpy' reference
+Entry 1601: Still contains 'coptpy' reference
+Entry 1608: Still contains 'coptpy' reference
+Entry 1620: Still contains 'coptpy' reference
+Entry 1675: Still contains 'coptpy' reference
+Entry 1684: Still contains 'COPT.' constant
+Entry 1697: Still contains 'coptpy' reference
+Entry 1722: Still contains 'coptpy' reference
+Entry 1745: Still contains 'coptpy' reference
+Entry 1747: Still contains 'coptpy' reference
+Entry 1751: Still contains 'coptpy' reference
+Entry 1769: Still contains 'coptpy' reference
+Entry 1795: Still contains 'coptpy' reference
+Entry 1806: Still contains 'coptpy' reference
+Entry 1814: Still contains 'coptpy' reference
+Entry 1826: Still contains 'COPT.' constant
+Entry 1856: Still contains 'coptpy' reference
+Entry 1857: Still contains 'coptpy' reference
+Entry 1871: Still contains 'coptpy' reference
+Entry 1873: Still contains 'coptpy' reference
+Entry 1876: Still contains 'coptpy' reference
+Entry 1886: Still contains 'COPT.' constant
+Entry 1889: Still contains 'coptpy' reference
+Entry 1893: Still contains 'coptpy' reference
+Entry 1897: Still contains 'COPT.' constant
+Entry 1911: Still contains 'coptpy' reference
+Entry 1930: Still contains 'COPT.' constant
+Entry 1933: Still contains 'coptpy' reference
+Entry 1938: Still contains 'coptpy' reference
+Entry 1945: Still contains 'coptpy' reference
+Entry 1955: Still contains 'coptpy' reference
+Entry 1961: Still contains 'coptpy' reference
+Entry 1966: Still contains 'COPT.' constant
+Entry 1980: Still contains 'coptpy' reference
+Entry 1984: Still contains 'coptpy' reference
+Entry 2002: Still contains 'coptpy' reference
+Entry 2007: Still contains 'COPT.' constant
+Entry 2009: Still contains 'coptpy' reference
+Entry 2036: Still contains 'coptpy' reference
+Entry 2037: Still contains 'COPT.' constant
+Entry 2043: Still contains 'COPT.' constant
+Entry 2053: Still contains 'coptpy' reference
+Entry 2053: Still contains 'COPT.' constant
+Entry 2055: Still contains 'coptpy' reference
+Entry 2059: Still contains 'coptpy' reference
+Entry 2060: Still contains 'coptpy' reference
+Entry 2070: Still contains 'COPT.' constant
+Entry 2078: Still contains 'coptpy' reference
+Entry 2079: Still contains 'coptpy' reference
+Entry 2083: Still contains 'coptpy' reference
+Entry 2099: Still contains 'COPT.' constant
+Entry 2123: Still contains 'coptpy' reference
+Entry 2135: Still contains 'coptpy' reference
+Entry 2137: Still contains 'coptpy' reference
+Entry 2154: Still contains 'coptpy' reference
+Entry 2198: Still contains 'coptpy' reference
+Entry 2211: Still contains 'COPT.' constant
+Entry 2212: Still contains 'coptpy' reference
+Entry 2214: Still contains 'coptpy' reference
+Entry 2220: Still contains 'coptpy' reference
+Entry 2247: Still contains 'coptpy' reference
+Entry 2254: Still contains 'COPT.' constant
+Entry 2286: Still contains 'COPT.' constant
+Entry 2295: Still contains 'coptpy' reference
+Entry 2309: Still contains 'coptpy' reference
+Entry 2330: Still contains 'COPT.' constant
+Entry 2362: Still contains 'coptpy' reference
+Entry 2377: Still contains 'COPT.' constant
+Entry 2407: Still contains 'COPT.' constant
+Entry 2415: Still contains 'coptpy' reference
+Entry 2417: Still contains 'coptpy' reference
+Entry 2426: Still contains 'coptpy' reference
+Entry 2429: Still contains 'coptpy' reference
+Entry 2444: Still contains 'coptpy' reference
+Entry 2446: Still contains 'coptpy' reference
+Entry 2449: Still contains 'COPT.' constant
+Entry 2458: Still contains 'coptpy' reference
+Entry 2467: Still contains 'coptpy' reference
+Entry 2471: Still contains 'coptpy' reference
+Entry 2489: Still contains 'coptpy' reference
+Entry 2498: Still contains 'coptpy' reference
+Entry 2508: Still contains 'coptpy' reference
+Entry 2514: Still contains 'COPT.' constant
+Entry 2516: Still contains 'coptpy' reference
+Entry 2521: Still contains 'coptpy' reference
+Entry 2526: Still contains 'coptpy' reference
+Entry 2527: Still contains 'coptpy' reference
+Entry 2533: Still contains 'coptpy' reference
+Entry 2536: Still contains 'coptpy' reference
+Entry 2538: Still contains 'coptpy' reference
+Entry 2545: Still contains 'coptpy' reference
+Entry 2546: Still contains 'coptpy' reference
+Entry 2547: Still contains 'coptpy' reference
+Entry 2555: Still contains 'coptpy' reference
+Entry 2564: Still contains 'coptpy' reference
+Entry 2571: Still contains 'coptpy' reference
+Entry 2607: Still contains 'coptpy' reference
+Entry 2614: Still contains 'coptpy' reference
+Entry 2627: Still contains 'coptpy' reference
+Entry 2640: Still contains 'coptpy' reference
+Entry 2645: Still contains 'coptpy' reference
+Entry 2661: Still contains 'COPT.' constant
+Entry 2680: Still contains 'coptpy' reference
+Entry 2720: Still contains 'coptpy' reference
+Entry 2723: Still contains 'COPT.' constant
+Entry 2728: Still contains 'COPT.' constant
+Entry 2734: Still contains 'coptpy' reference
+Entry 2750: Still contains 'coptpy' reference
+Entry 2761: Still contains 'coptpy' reference
+Entry 2772: Still contains 'coptpy' reference
+Entry 2783: Still contains 'coptpy' reference
+Entry 2797: Still contains 'coptpy' reference
+Entry 2804: Still contains 'coptpy' reference
+Entry 2806: Still contains 'coptpy' reference
+Entry 2813: Still contains 'coptpy' reference
+Entry 2819: Still contains 'coptpy' reference
+Entry 2844: Still contains 'coptpy' reference
+Entry 2853: Still contains 'coptpy' reference
+Entry 2856: Still contains 'coptpy' reference
+Entry 2861: Still contains 'coptpy' reference
+Entry 2862: Still contains 'coptpy' reference
+Entry 2863: Still contains 'COPT.' constant
+Entry 2881: Still contains 'coptpy' reference
+Entry 2896: Still contains 'coptpy' reference
+Entry 2918: Still contains 'coptpy' reference
+Entry 2947: Still contains 'coptpy' reference
+Entry 2948: Still contains 'coptpy' reference
+Entry 2955: Still contains 'coptpy' reference
+Entry 2960: Still contains 'coptpy' reference
+Entry 2967: Still contains 'coptpy' reference
+Entry 2974: Still contains 'coptpy' reference
+Entry 2994: Still contains 'coptpy' reference
+
+
+VALIDATION CHECKS
+--------------------------------------------------------------------------------
+✓ All imports converted from COPTPY to Gurobipy
+✓ All constants converted from COPT to GRB
+✓ Environment and Model creation updated
+✓ model.objval converted to model.ObjVal
+✓ Mathematical Model sections preserved
+✓ Problem descriptions unchanged
+
+================================================================================
+Report generation complete
+================================================================================
