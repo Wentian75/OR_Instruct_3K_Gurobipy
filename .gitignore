@@ -1,2 +1,4 @@
 # -ignore-all-files-
 CLAUDE.md
+.claude/
+__pycache__/
