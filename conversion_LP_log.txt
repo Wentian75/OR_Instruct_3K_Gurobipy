@@ -1,0 +1,197 @@
+Starting conversion from OR-Instruct-Data-3K-Gurobipy.jsonl to OR-Instruct-Data-3k-LP.jsonl
+Maximum entries to process: ALL
+--------------------------------------------------------------------------------
+Warning: variable name "Chicken Breast Intake" has a space
+Warning: constraint name "Protein Requirement" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "Data Encryption" has a space
+Warning: constraint name "Total Resource Limit" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 100 entries successfully...
+Warning: variable name "x_Model Running" has a space
+Warning: constraint name "ResourceDemand_Disk Space" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Data Analysis" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 200 entries successfully...
+Warning: variable name "x_Audiovisual Materials" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_A_Ground Reconnaissance" has a space
+Warning: constraint name "Task_Ground Reconnaissance_Assignment" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 300 entries successfully...
+Warning: variable name "x_Plant A_Solar Energy_City 1" has a space
+Warning: constraint name "Demand_Solar Energy_City 1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Shooting Training_Point Guard" has a space
+Warning: constraint name "Demand_Shooting Training_Point Guard" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_garbage collection" has a space
+Warning: constraint name "TaskDuration_garbage collection" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_f_Operating Room" has a space
+Warning: constraint name "MinDemand_Operating Room" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 400 entries successfully...
+Warning: variable name "p_Coal-fired Power Plant_Morning Peak" has a space
+Warning: constraint name "Demand_Morning Peak" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 500 entries successfully...
+Warning: variable name "Build_Lumber Mill" has a space
+Warning: constraint name "Upgrade_Limit_Lumber Mill" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_New York" has a space
+Warning: constraint name "ServiceQuality_New York_Paris" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Emergency_Administrative Staff" has a space
+Warning: constraint name "Demand_Internal Medicine" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "T_A_Morning Shift" has a space
+Warning: constraint name "MinimumOperationTime_Morning Shift" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 600 entries successfully...
+Processed 700 entries successfully...
+Warning: variable name "x_X_A_Medical Equipment" has a space
+Warning: constraint name "Demand_A_Medical Equipment" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "Vegetation Restoration" has a space
+Warning: constraint name "Budget Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Sales_Human Resources" has a space
+Warning: constraint name "Demand_Human Resources" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "start_time_Requirements Analysis" has a space
+Warning: constraint name "MaxPersonnelConstraint_Requirements Analysis" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 800 entries successfully...
+Warning: variable name "x_A_Academic Affairs Office" has a space
+Warning: constraint name "Department_Academic Affairs Office_Demand" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Speech_Conference Room" has a space
+Warning: constraint name "VenueActivity_Conference Room" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 900 entries successfully...
+Warning: variable name "y_Dormitory 1_R" has a space
+Warning: constraint name "Demand_Dormitory 1_R" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 1000 entries successfully...
+Warning: variable name "x_1_Environmental Protection" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Daily Necessities_A_8:00-12:00" has a space
+Warning: constraint name "Demand_Daily Necessities_8:00-12:00" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Real Estate" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "s_Personal Information" has a space
+Warning: constraint name "Demand_Registration Service" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 1100 entries successfully...
+Warning: constraint name "Technology Selection" has a space
+Processed 1200 entries successfully...
+Warning: variable name "x_A_Sports Arena" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_United States_North America" has a space
+Warning: constraint name "Capacity_United States" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 1300 entries successfully...
+Warning: variable name "x_United States_Patent" has a space
+Warning: constraint name "PartnerLimit_United States" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Security Check" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 1400 entries successfully...
+Warning: variable name "O_South America" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 1500 entries successfully...
+Warning: variable name "x_F1_00:00-06:00" has a colon
+Warning: constraint name "demand_00:00-06:00" has a colon
+Warning: to let Gurobi read it back, use rlp format
+Processed 1600 entries successfully...
+Warning: variable name "x_A_City Center" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "Earthwork Days" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Product Display Area" has a space
+Warning: constraint name "MinSpaceConstraint_Product Display Area" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: linear constraint 7 and linear constraint 8 have the same name "TransshipmentCapacity_T1"
+Processed 1700 entries successfully...
+Warning: linear constraint 3 and linear constraint 11 have the same name "MaxDifference_2_1"
+Processed 1800 entries successfully...
+Warning: variable name "x_Text with Images" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: constraint name "Total Power Demand" has a space
+Warning: variable name "x_A_Canteen 1" has a space
+Warning: constraint name "Demand_Canteen 1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 1900 entries successfully...
+Warning: variable name "x_Computer Science" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 2000 entries successfully...
+Warning: variable name "y_Water Resource Management" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 2100 entries successfully...
+Warning: variable name "a_Bumper Cars" has a space
+Warning: constraint name "SingleAllocationConstraint_Bumper Cars" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_US_North America" has a space
+Warning: constraint name "Demand_North America" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 2200 entries successfully...
+Processed 2300 entries successfully...
+Warning: variable name "x_New York" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variables 0 and 1 have the same name "x_A_Morning"
+Warning: linear constraint 0 and linear constraint 1 have the same name "PowerDemandConstraint_Morning"
+Warning: to let Gurobi read it back, use rlp format
+Warning: linear constraint 2 and linear constraint 7 have the same name "CostDifferenceConstraint_B_A"
+Processed 2400 entries successfully...
+Warning: linear constraint 1 and linear constraint 6 have the same name "CyberResourceLimit"
+Processed 2500 entries successfully...
+Warning: constraint name "Technical Services_supply" has a space
+Processed 2600 entries successfully...
+Warning: variable name "x_Painting_Staff Members" has a space
+Warning: constraint name "Demand_Painting_Staff Members" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 2700 entries successfully...
+Warning: variable name "x_Household Goods_A" has a space
+Warning: constraint name "Category_Household Goods" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Classroom Building_Library" has a space
+Warning: constraint name "Demand_Classroom Building" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Medical Equipment_Elderly" has a space
+Warning: constraint name "Resource_Medical Equipment" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Emergency Department_A" has a space
+Warning: constraint name "DepartmentDemandLimit_Emergency Department_A" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_A_Environmental Protection" has a space
+Warning: constraint name "Fairness2_Environmental Protection" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Thermal Power Plant_Residential" has a space
+Warning: constraint name "Capacity_Thermal Power Plant" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: constraint name "Demand_[0, 1, 2, 3]" has a space
+Warning: variable name "x_Tour Guide" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 2800 entries successfully...
+Warning: variable name "x_United States" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: constraint name "Beijing Processing Capacity" has a space
+Warning: variable name "x_news_social media" has a space
+Warning: constraint name "Demand_social media" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x_Medical Center" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 2900 entries successfully...
+Warning: variable name "x_Technical Training_1" has a space
+Warning: constraint name "MinTrainingHours_Technical Training" has a space
+Warning: to let Gurobi read it back, use rlp format
+Processed 3000 entries successfully...
+--------------------------------------------------------------------------------
+Conversion complete!
+Total entries: 3000
+Successful: 3000 (100.00%)
+Failed: 0 (0.00%)
+Warning: environment still referenced so free is deferred (Continue to use WLS)
